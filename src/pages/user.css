@@ -1,0 +1,9 @@
+.imgAvata{
+    margin-right: 30px;
+    height:50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.user{
+    border-bottom:  6px solid #999990;
+}

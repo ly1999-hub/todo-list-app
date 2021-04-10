@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from "react";
+//import { Button } from 'reactstrap';
+//import FormInput from "./components/formLogin";
+//import Notification from "./components/Notification";
 import './App.css';
+import Menu from "./components/Menu";
+import {CartProvider} from './context/cart';
+//import { Router } from "react-router";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+class App extends React.Component{
+    render(){
+    return(
+    <CartProvider>  
+      <div className="container-fluid">
+        <Menu className="Menu" />
+      </div>
+    </CartProvider> 
+    );
+  };
+};
 
 export default App;

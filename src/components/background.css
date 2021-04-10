@@ -1,0 +1,16 @@
+.background{
+    background-repeat: no-repeat;
+    height: 449px;
+    opacity: 1;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-image: url("https://photo-cms-plo.zadn.vn/w800/Uploaded/2021/wopsvun/2019_04_27/pikachu_fpqu.jpg");
+}
+
+.borderCss{
+    border: 10px solid;
+    background-color: #cccccc;
+}
